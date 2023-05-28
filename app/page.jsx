@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -7,10 +9,10 @@ const Home = () => {
       </h1>
       <p className="desc text-center">
         Next-Prompts is an open-source AI promting tool for the modern world to
-        discover, create and share creative promts
+        discover, create and share creative prompts
       </p>
 
-      {/* Feed */}
+      <Feed />
     </section>
   );
 };
